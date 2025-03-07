@@ -100,7 +100,7 @@ public class UserInterFace {
                     index = db.search(key);
                     if (index >= 0) {
                         System.out.println("APAKAH ANDA YAKIN INGIN MENGHAPUS DATA INI "+db.getData().get(index));
-                        System.out.println("Pilih (Y/N): ");
+                        System.out.println("Pilih : ");
                         pilihan = sc.nextLine();
                         if (pilihan.equalsIgnoreCase("Y")) {
                             status = db.delete(index);
