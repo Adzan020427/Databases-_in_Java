@@ -50,4 +50,26 @@ public class Mahasiswa {
                 ", ipk=" + ipk +
                 '}';
     }
+
+    public void setNIM(String nim){
+        this.nim = nim;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+    public void setSemester(int semester) {
+        this.semester = semester;
+    }
+
+    public void setSks(int sks) {
+        this.sks = sks;
+    }
+
+    public void setIpk(double ipk) {
+        this.ipk=ipk;
+    }
 }
